@@ -4,6 +4,8 @@ NAME
 SYNOPSIS
         use App::Kuragepo::Worker;
 
+    see "example/echo.pl"
+
 DESCRIPTION
     App::Kuragepo::Worker is
 

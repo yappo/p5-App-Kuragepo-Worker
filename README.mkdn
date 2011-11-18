@@ -6,6 +6,8 @@ App::Kuragepo::Worker -
 
     use App::Kuragepo::Worker;
 
+see `example/echo.pl`
+
 # DESCRIPTION
 
 App::Kuragepo::Worker is

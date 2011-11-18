@@ -5,7 +5,10 @@ readme_from 'lib/App/Kuragepo/Worker.pm';
 readme_markdown_from 'lib/App/Kuragepo/Worker.pm';
 githubmeta;
 
-# requires '';
+requires 'parent';
+requires 'JSON';
+requires 'Net::MPRPC::Client';
+requires 'Gearman::Client';
 
 tests 't/*.t';
 author_tests 'xt';
